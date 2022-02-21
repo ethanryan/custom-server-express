@@ -1,5 +1,14 @@
 # Custom Express Server example
 
+NOTE: this app forked from: https://github.com/vercel/next.js/tree/canary/examples/custom-server-express
+
+server.js file updated.
+
+since we are using middleware, including `hostname` and `port` in this line:
+
+// when using middleware `hostname` and `port` must be provided below
+const app = next({ dev: ENVIRONMENT === 'development', hostname, port: PORT })
+
 Most of the time the default Next.js server will be enough but there are times you'll want to run your own server to integrate into an existing application. Next.js provides [a custom server api](https://nextjs.org/docs/advanced-features/custom-server).
 
 Because the Next.js server is a Node.js module you can combine it with any other part of the Node.js ecosystem. In this case we are using express.
