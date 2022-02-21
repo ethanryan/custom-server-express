@@ -9,6 +9,17 @@ since we are using middleware, including `hostname` and `port` in this line:
 // when using middleware `hostname` and `port` must be provided below
 const app = next({ dev: ENVIRONMENT === 'development', hostname, port: PORT })
 
+
+this example app deployed to Vercel here:
+
+https://custom-server-express-nine.vercel.app/
+
+note the above is app is a production environment. 
+
+//
+
+README from Next.js below:
+
 Most of the time the default Next.js server will be enough but there are times you'll want to run your own server to integrate into an existing application. Next.js provides [a custom server api](https://nextjs.org/docs/advanced-features/custom-server).
 
 Because the Next.js server is a Node.js module you can combine it with any other part of the Node.js ecosystem. In this case we are using express.

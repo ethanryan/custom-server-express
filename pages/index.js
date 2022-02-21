@@ -2,6 +2,10 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+    <>
+    <h1>
+    Example Next.js app with custom server.js file and Express 
+    </h1>
     <ul>
       <li>
         <Link href="/b" as="/a">
@@ -14,5 +18,6 @@ export default function Home() {
         </Link>
       </li>
     </ul>
+    </>
   )
 }
