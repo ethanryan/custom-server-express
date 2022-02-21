@@ -16,6 +16,10 @@ https://custom-server-express-nine.vercel.app/
 
 note the above is app is a production environment. 
 
+![example-app-local](https://user-images.githubusercontent.com/8107812/155028588-2981b15a-bd1d-482c-9a58-759b138a6194.png)
+
+![example-app-production](https://user-images.githubusercontent.com/8107812/155028603-fa4666ee-98f5-469c-b768-b511e280606a.png)
+
 //
 
 README from Next.js below:
