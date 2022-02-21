@@ -4,8 +4,11 @@ export default function Home() {
   return (
     <>
     <h1>
-    Example Next.js app with custom server.js file and Express 
+    Example Next.js app using custom server.js file and Express
     </h1>
+    <div>
+    process.env.NODE_ENV is: {process?.env?.NODE_ENV}
+    </div>
     <ul>
       <li>
         <Link href="/b" as="/a">
