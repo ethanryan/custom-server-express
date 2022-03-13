@@ -1,3 +1,4 @@
+import styles from '../styles.css'
 import Layout from '../components/layout'
 
 export function reportWebVitals(metric) {
